@@ -29,7 +29,7 @@ import java.util.List;
 @Getter
 @Setter
 @Entity
-@Table(name = "address", schema = "Aston_application")
+@Table(name = "address", schema = "railway")
 @NamedQueries({
         @NamedQuery(name = "Address.getAddressById", query = "select a from Address a left join fetch a.employeeList where a.id = :id"),
         @NamedQuery(name = "Address.getAddressByIdLazy", query = "select a from Address a where a.id = :id")})
@@ -52,6 +52,6 @@ public class Address implements Serializable {
 
     @OneToMany(mappedBy = "address", fetch = FetchType.LAZY)
     @ToString.Exclude
-//    @JsonManagedReference
+    @JsonManagedReference
     private List<Employee> employeeList = new ArrayList<>();
 }

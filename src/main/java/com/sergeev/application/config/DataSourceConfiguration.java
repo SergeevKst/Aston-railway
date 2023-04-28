@@ -1,6 +1,8 @@
 package com.sergeev.application.config;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -15,6 +17,7 @@ import javax.sql.DataSource;
 import java.util.Properties;
 
 @Configuration
+@EnableAutoConfiguration(exclude = HibernateJpaAutoConfiguration.class)
 @EnableTransactionManagement
 @ComponentScan("com.sergeev.application")
 @PropertySource("classpath:application.properties")
