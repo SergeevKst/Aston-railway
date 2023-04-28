@@ -23,6 +23,9 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Business logic object
+ */
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
@@ -54,4 +57,5 @@ public class Address implements Serializable {
     @ToString.Exclude
     @JsonManagedReference
     private List<Employee> employeeList = new ArrayList<>();
+
 }

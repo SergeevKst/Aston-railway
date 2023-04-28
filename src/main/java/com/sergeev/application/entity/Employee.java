@@ -19,6 +19,9 @@ import lombok.Setter;
 
 import java.io.Serializable;
 
+/**
+ * Business logic object
+ */
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder

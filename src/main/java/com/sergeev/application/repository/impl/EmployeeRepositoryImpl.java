@@ -10,7 +10,6 @@ import org.springframework.stereotype.Repository;
 @RequiredArgsConstructor
 public class EmployeeRepositoryImpl implements EmployeeRepository {
     private final SessionFactory sessionFactory;
-
     @Override
     public void save(Employee entity) {
         var session = sessionFactory.getCurrentSession();
