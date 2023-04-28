@@ -39,7 +39,7 @@ public class Employee implements Serializable {
 
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "id_address")
-    @JsonBackReference
+//    @JsonBackReference
     private Address address;
 
 }

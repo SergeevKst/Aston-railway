@@ -14,9 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @AllArgsConstructor
 public class EmployeeController {
     private EmployeeService employeeService;
-
-    @PostMapping(produces = MediaType.APPLICATION_JSON_VALUE,
-                 consumes = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping()
     public void addEmployee(@RequestBody Employee employee) {
         employeeService.save(employee);
     }

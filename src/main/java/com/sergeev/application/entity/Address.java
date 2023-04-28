@@ -52,6 +52,6 @@ public class Address implements Serializable {
 
     @OneToMany(mappedBy = "address", fetch = FetchType.LAZY)
     @ToString.Exclude
-    @JsonManagedReference
+//    @JsonManagedReference
     private List<Employee> employeeList = new ArrayList<>();
 }
