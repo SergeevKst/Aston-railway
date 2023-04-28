@@ -1,5 +1,5 @@
 # Aston-railway
-![Deploy on Railway](https://railway.app/button.svg)](https://railway.app)
+![Deploy on Railway](https://railway.app/button.svg)]
 ![Spring Boot](https://img.shields.io/badge/-springboot-0a0a0a?style=for-the-badge&logo=springboot)
 <br/>
 > Memo for connecting with Railway
@@ -14,7 +14,7 @@
 # 3. Create project and add the database and your own gitHub repository
 
 # 4. Grab the properties
-<img src=https://github.com/SergeevKst/Aston-railway/blob/master/assets/grap_props1.png?raw=true" width="800">
+<img src="https://github.com/SergeevKst/Aston-railway/blob/master/assets/grap_props1.png?raw=true" width="800">
 
 # 5. Add some properties in your database configuration
 <img src="https://github.com/SergeevKst/Aston-railway/blob/master/assets/properties.png?raw=true" width="900">
