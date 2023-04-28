@@ -9,7 +9,7 @@
 > And how you can exclude lazy field from mapping grateful for data transfer object(DTO)
 
 # 2. Check the site
-> https://railway/login
+> https://railway.app/login
 
 # 3. Create project and add the database and your own gitHub repository
 
