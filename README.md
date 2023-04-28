@@ -1,5 +1,5 @@
 # Aston-railway
-![Deploy on Railway](https://railway.app/button.svg)]
+![Deploy on Railway](https://railway.app/button.svg)
 ![Spring Boot](https://img.shields.io/badge/-springboot-0a0a0a?style=for-the-badge&logo=springboot)
 <br/>
 > Memo for connecting with Railway
